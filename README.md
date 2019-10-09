@@ -14,7 +14,11 @@ I made this game as a Home work project for General Assemb.ly - software enginee
 
 ****
 
+<!-- Picture below of Space Battle Game - version by: Brian Loveless -->
 
+![alt text](https://github.com/BrianLoveGa/space-battle-game/blob/master/public/images/Screen%20Shot%202019-10-09%20at%201.06.08%20AM.png "Space Battle Game - version by: Brian Loveless, Creator: Akira Wong, adapted by Thom Page ")
+
+*****
 
 __Console Log__
 
