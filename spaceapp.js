@@ -97,8 +97,8 @@ const defeat = youHero => {
         );
     } else {
         console.log(
-            "%c ..... Your turn now captian enter your move below ..... ",
-            "background:lightskyblue; color black; font-size:20px;",
+            "%c .. Your turn now captian enter your move below .. ",
+            "background:lightskyblue; color:black; font-size:20px;",
         );
     }
 };
@@ -297,8 +297,8 @@ class Alienship {
                         "backgroundcolor:darkgreen; color:white;",
                     );
                     console.log(
-                        "%c We got hit by alien lazers with a z  our hull power is down to ... ",
-                        "background:lightskyblue; color:black; font-size:18px;",
+                        "%c We got hit by alien lazers with a z  our hull power is down to the tiny number on the next line... ",
+                        "background:lightskyblue; color:black; font-size:15px;",
                     );
                     console.log((youHero.hull -= this.firepower));
                     defeat(youHero); /// but did you die? also returns it to your move
