@@ -1,20 +1,23 @@
 body {
-    background-image:url("https://www.thewesternstar.com/media/photologue/photos/cache/perseid-meteor-3128719_large.png");
+    background-image: url("https://www.thewesternstar.com/media/photologue/photos/cache/perseid-meteor-3128719_large.png");
     background-attachment: scroll;
     color: white;
+    margin: 2% 5%;
 }
 
 .controls {
     padding: 1em;
     background-color: rgb(54, 58, 58);
-    font-size: 20px;
-    color: rgba(95, 216, 115, 0.514);
+    font-size: 25px;
+    color: rgba(190, 224, 195, 0.514);
     text-align: justify;
 }
-h1 { text-align: center;
-    border: 3px solid red;
 
-} 
+h1 {
+    text-align: center;
+    border: 3px solid red;
+}
+
 .moves {
     text-align: center;
     border: 3px dotted red;
@@ -26,29 +29,24 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
 .foot {
     align-content: center;
     padding: 20px;
 }
 
-
 .me {
-
     background-color: fuchsia;
     color: white;
     text-decoration: none;
     size: 20px;
-
 }
 
 .me:hover {
-
     background-color: pink;
     color: black;
     text-decoration: none;
     size: 25px;
     border: 3px white solid;
     border-radius: 5px;
-
 }
-
