@@ -24,7 +24,7 @@ Sorry this isn't phone friendly - maybe will make a prompts style later so phoni
 
 Must be played in console log.
 
-Just type commands into bottom line of the ole log - instructions on html Page.
+Just type commands into bottom line of (ye olde) the console log - instructions on html Page.
 And below
 
 <!-- Picture below of Space Battle Game - version by: Brian Loveless -->
@@ -65,3 +65,6 @@ youHero.laser(al3) ... youHero.laser(al4 ) or youHero.attack(al4) ... youHero.at
 Please ignore when undefined appears in the log _-_ HOWEVER _-_ if your moves only return undefined then either you are targeting a dead ship or you have died please reset to play again (refresh the page).
 
 ___Have fun ... It's just a game after all__
+
+
+[play here](https://brianlovega.github.io/space-battle-game/)
