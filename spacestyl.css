@@ -1,52 +1,149 @@
 body {
-    background-image: url("https://www.thewesternstar.com/media/photologue/photos/cache/perseid-meteor-3128719_large.png");
-    background-attachment: scroll;
-    color: white;
-    margin: 2% 5%;
+  background-image: url("https://www.thewesternstar.com/media/photologue/photos/cache/perseid-meteor-3128719_large.png");
+  background-attachment: scroll;
+  color: white;
+  margin: 2% 5%;
 }
 
 .controls {
-    padding: 1em;
-    background-color: rgb(54, 58, 58);
-    font-size: 25px;
-    color: rgba(190, 224, 195, 0.514);
-    text-align: justify;
+  padding: 1em;
+  background-color: rgb(54, 58, 58);
+  font-size: 25px;
+  color: rgba(190, 224, 195, 0.514);
+  text-align: justify;
 }
 
 h1 {
-    text-align: center;
-    border: 3px solid red;
+  text-align: center;
+  border: 3px solid red;
+}
+.codelink {
+  background-image: linear-gradient(
+    rgb(192, 247, 142),
+    rgb(194, 162, 162),
+    rgb(136, 181, 240)
+  );
+  height: 30px;
+  border-radius: 80px;
+  padding: 20px;
+  margin: 5% 10%;
+}
+
+a.code {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 3px 5px 4px;
+  margin: 20% 8% 2%;
+
+}
+.code:hover,
+.code:focus,
+.code:active {
+    background-color: black;
+    color:white;
+    border-radius:30px;
 }
 
 .moves {
-    text-align: center;
-    border: 3px dotted red;
+  text-align: center;
+  border: 3px dotted red;
 }
 
 footer {
-    background-color: black;
-    color: fuchsia;
-    text-align: center;
-    padding: 20px;
+  background-color: black;
+  color: fuchsia;
+  text-align: center;
+  padding: 20px;
 }
 
 .foot {
-    align-content: center;
-    padding: 20px;
+  align-content: center;
+  padding: 20px;
 }
 
 .me {
-    background-color: fuchsia;
-    color: white;
-    text-decoration: none;
-    size: 20px;
+  background-color: fuchsia;
+  color: white;
+  text-decoration: none;
+  size: 20px;
 }
 
-.me:hover {
-    background-color: pink;
-    color: black;
-    text-decoration: none;
-    size: 25px;
-    border: 3px white solid;
-    border-radius: 5px;
+.me:hover,
+.me:focus,
+.me:active {
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  size: 25px;
+  border: 3px white solid;
+  border-radius: 5px;
+}
+
+.control {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.resetbox {
+  background-color: greenyellow;
+  height: 100px;
+  display: flex;
+}
+
+.resetlink {
+  justify-content: center;
+  padding: 10px;
+  margin: 2% auto;
+  border: 6px solid silver;
+  border-radius: 20px;
+}
+
+.reset {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(88, 82, 82);
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+  font-size: 40px;
+}
+
+.reset:hover,
+.reset:focus,
+.reset:active {
+  color: rgb(155, 201, 31);
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(250, 243, 243), 0 0 20px rgb(219, 219, 219),
+      0 0 30px #b9b9b9, 0 0 40px #969595, 0 0 50px #4d4c4c, 0 0 60px #222222,
+      0 0 70px #000000;
+  }
+  to {
+    text-shadow: 0 0 20px rgb(250, 243, 243), 0 0 30px rgb(219, 219, 219),
+      0 0 40px #b9b9b9, 0 0 50px #969595, 0 0 60px #4d4c4c, 0 0 70px #222222,
+      0 0 80px #000000;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(250, 243, 243), 0 0 20px rgb(219, 219, 219),
+      0 0 30px #b9b9b9, 0 0 40px #969595, 0 0 50px #4d4c4c, 0 0 60px #222222,
+      0 0 70px #000000;
+  }
+  to {
+    text-shadow: 0 0 20px rgb(250, 243, 243), 0 0 30px rgb(219, 219, 219),
+      0 0 40px #b9b9b9, 0 0 50px #969595, 0 0 60px #4d4c4c, 0 0 70px #222222,
+      0 0 80px #000000;
+  }
 }
