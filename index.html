@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta property="og:title" content="Welcome to BL Space Battle a console log JS game" />
+    <meta
+      property="og:title"
+      content="Welcome to BL Space Battle a console log JS game"
+    />
     <meta
       property="og:description"
       content="A simple console log JS game.
@@ -45,103 +47,134 @@
     <link rel="shortcut icon" href="./public/images/BL-web-pico.png" />
     <title>BL space battle game</title>
     <link rel="stylesheet" type="text/css" href="spacestyl.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Welcome to my Space Battle page</h1>
     <h2>
-        Sorry this game is not very phone friendly - best played on a tablet or computer
+      Sorry this game is not very phone friendly - best played on a tablet or
+      computer
     </h2>
     <h2>
-        Open the console log to play <br /> ( thats opt + cmd + J if on a mac using chrome)
+      Open the console log to play <br />
+      ( thats opt + cmd + J if on a mac using chrome)
     </h2>
     <h2>( thats ctrl + shift + J if on windows using chrome)</h2>
     <h2>Or click view, go to developer, click javascript console.</h2>
     <h2>
-        (opt + command + K for firefox ) </h2> 
+      (opt + command + K for firefox )
+    </h2>
     <h2>
-        or go to tools, web developer, web console
+      or go to tools, web developer, web console
     </h2>
     <h2>Sroll to the top when opened.</h2>
     <h2>
-        Currently you have to type your moves into the console log - the enemy will automatically return fire if there are any left
+      Currently you have to type your moves into the console log - the enemy
+      will automatically return fire if there are any left
     </h2>
     <h2>
-        You can type - or copy and paste commands from below straight into the console log window off to the side.
+      You can type - or copy and paste commands from below straight into the
+      console log window off to the side.
     </h2>
     <hr />
     <h3>
-        youHero is how you access your ship - (The USS Schwarzenegger)
-        <hr />
-        <br /> The bad guys will have random attributes each time <br /> They all are named al something <br /> al1 = new Alienship("AL #1") ... al2 = new Alienship("AL #2") ... al3 = new Alienship("AL #3") ... al4 = new Alienship("AL #4") ... al5 = new
-        Alienship("AL #5") ... & final "boss" ... al6 = new Alienship("AL #6")
+      youHero is how you access your ship - (The USS Schwarzenegger)
+
+      <br />
+      The bad guys will have random attributes each time <br />
+      They all are named al something <br />
+      al1 = new Alienship("AL #1") ... al2 = new Alienship("AL #2") ... al3 =
+      new Alienship("AL #3") ... al4 = new Alienship("AL #4") ... al5 = new
+      Alienship("AL #5") ... & final "boss" ... al6 = new Alienship("AL #6")
     </h3>
     <hr />
     <h3>
-        You can shoot them with a laser (youHero.laser() ) - (weak but unlimited) or missles (youHero.attack() ) - (stronger but a finite resource)
+      You can shoot them with a laser (youHero.laser() ) - (weak but unlimited)
+      or missles (youHero.attack() ) - (stronger but a finite resource)
     </h3>
     <h3>
-        If you are getting beat up you can have your engineers search Reddit for a way to fix your hull. This can only be used a limited number of times.
+      If you are getting beat up you can have your engineers search Reddit for a
+      way to fix your hull. This can only be used a limited number of times.
     </h3>
     <div class="codelink">
-        <a class="code" href="https://github.com/BrianLoveGa/space-battle-game/blob/master/spaceapp.js" target="_blank">CLICK HERE FOR THE CODE ON GITHUB</a>
+      <a
+        class="code"
+        href="https://github.com/BrianLoveGa/space-battle-game/blob/master/spaceapp.js"
+        target="_blank"
+        >CLICK HERE FOR THE CODE ON GITHUB</a
+      >
     </div>
     <div class="controls">
-        <div class="moves">
-            <h3>** Moves & Instructions Are Below **</h3>
-        </div>
-        <h4>To attack first ship with lasers use/type youHero.laser(al1)</h4>
-        <h4>To attack first ship with missles use/type youHero.attack(al1)</h4>
-        <h4>To laser or missle the second ship replace al1 above with al2</h4>
-        <h4>
-            It is the same with subsequent enemies... al3 ... al4 ... al5 ... al6
-        </h4>
-        <h4>
-            youHero.laser(al2) ... youHero.laser(al3 ) or youHero.attack(al1) ... youHero.attack(al2) and so on ...
-        </h4>
-        <h4>
-            To check your hull strength (health) use/type youHero.announceHealth()
-        </h4>
-        <h4>
-            To repair your hull use/type youHero.useReddit() and your engineers will search Reddit for a way to fix the damage.... you only get to use twice
-        </h4>
+      <div class="moves">
+        <h3>** Moves & Instructions Are Below **</h3>
+      </div>
+      <h4>To attack first ship with lasers use/type youHero.laser(al1)</h4>
+      <h4>To attack first ship with missles use/type youHero.attack(al1)</h4>
+      <h4>To laser or missle the second ship replace al1 above with al2</h4>
+      <h4>
+        It is the same with subsequent enemies... al3 ... al4 ... al5 ... al6
+      </h4>
+      <h4>
+        youHero.laser(al2) ... youHero.laser(al3 ) or youHero.attack(al1) ...
+        youHero.attack(al2) and so on ...
+      </h4>
+      <h4>
+        To check your hull strength (health) use/type youHero.announceHealth()
+      </h4>
+      <h4>
+        To repair your hull use/type youHero.useReddit() and your engineers will
+        search Reddit for a way to fix the damage.... you only get to use twice
+      </h4>
 
-        <h4>
-            Please ignore when undefined appears in the log _-_ HOWEVER _-_ if your moves only return undefined then either you are targeting a dead ship or you have died please reset to play again (refresh the page).
-        </h4>
-        <h4>
-            Your commands must end with a () empty to fix hull or check your health ..... you put (the target) inside parenthesis to attack like above.
-        </h4>
-        <h4>
-            If you are typing correctly it should auto-complete to some degree in console log
-        </h4>
-        <h3>Can you save the Earth and destroy all 7 nasty Alien ships ?</h3>
-        <hr></hr>
-        <div class="control">
+      <h4>
+        Please ignore when undefined appears in the log _-_ HOWEVER _-_ if your
+        moves only return undefined then either you are targeting a dead ship or
+        you have died please reset to play again (refresh the page).
+      </h4>
+      <h4>
+        Your commands must end with a () empty to fix hull or check your health
+        ..... you put (the target) inside parenthesis to attack like above.
+      </h4>
+      <h4>
+        If you are typing correctly it should auto-complete to some degree in
+        console log
+      </h4>
+      <h3>Can you save the Earth and destroy all 7 nasty Alien ships ?</h3>
+      <hr />
+      <div class="control">
         <h4>youHero.attack(al1) ... or ... youHero.laser(al1)</h4>
-        <h4> youHero.announceHealth() ... or ... youHero.useReddit() </h4>
-        <h4> 6 missles 3 shield fixes to start</h4>
+        <h4>youHero.announceHealth() ... or ... youHero.useReddit()</h4>
+        <h4>6 missles 3 shield fixes to start</h4>
         <h4>youHero.attack(al2) youHero.laser(al3)</h4>
-        </div>
+      </div>
     </div>
     <div class="resetbox">
-        <div class="resetlink">
-            <a class="reset" href="https://brianlovega.github.io/space-battle-game/" >RESET GAME</a>
-        </div>
+      <div class="resetlink">
+        <a class="reset" href="https://brianlovega.github.io/space-battle-game/"
+          >RESET GAME</a
+        >
+      </div>
     </div>
 
     <footer>
-        Have fun ... It's just a game after all _-_ made by
-        <a class="me" href="https://www.brianloveless.com" alt="brian loveless .com" target="_blank">B Love
-			</a>
-        <hr />
-        <br /> for GA
-        <br />
-        <a class="foot" href="https://generalassemb.ly/" target="_blank"><img src="https://poncecitymarket.com/wp-content/uploads/general_assembly_logo-e1465576797290.png" alt="General Assembly" width="50" height="50" />
-        </a>
+      Have fun ... It's just a game after all _-_ made by
+      <a class="me" href="https://www.brianloveless.com" target="_blank"
+        >B Love
+      </a>
+      <hr />
+      <br />
+      for GA
+      <br />
+      <a class="foot" href="https://generalassemb.ly/" target="_blank">
+        <img
+          src="https://poncecitymarket.com/wp-content/uploads/general_assembly_logo-e1465576797290.png"
+          alt="General Assembly"
+          width="50"
+          height="50"
+        />
+      </a>
     </footer>
 
     <script src="spaceapp.js"></script>
-</body>
-
+  </body>
 </html>
